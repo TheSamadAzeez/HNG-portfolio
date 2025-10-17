@@ -54,19 +54,7 @@ function TabsLayout() {
         }}
       />
       <Tabs.Screen
-        name="details"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
         name="+not-found"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="+html"
         options={{
           href: null,
         }}
