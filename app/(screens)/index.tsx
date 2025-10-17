@@ -1,6 +1,6 @@
 import { View, Text, ScrollView, Switch, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useTheme } from '../context/ThemeContext';
+import { useTheme } from '../../context/ThemeContext';
 import { Ionicons } from '@expo/vector-icons';
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
 
           {/* Profile Image */}
           <Image
-            source={require('../assets/profile-image.jpg')}
+            source={require('../../assets/profile-image.jpg')}
             className="mb-6 h-32 w-32 rounded-full"
             style={{ resizeMode: 'center' }}
           />

@@ -1,7 +1,7 @@
-import '../global.css';
+import '../../global.css';
 
 import { Tabs } from 'expo-router';
-import { ThemeProvider, useTheme } from '../context/ThemeContext';
+import { ThemeProvider, useTheme } from '../../context/ThemeContext';
 import { Ionicons } from '@expo/vector-icons';
 
 function TabsLayout() {

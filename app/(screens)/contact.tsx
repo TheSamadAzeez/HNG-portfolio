@@ -1,6 +1,6 @@
 import { View, Text, ScrollView, TouchableOpacity, Linking } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useTheme } from '../context/ThemeContext';
+import { useTheme } from '../../context/ThemeContext';
 import { Ionicons } from '@expo/vector-icons';
 
 interface ContactMethod {
@@ -55,7 +55,7 @@ export default function Contact() {
       icon: 'logo-linkedin',
       label: 'LinkedIn',
       value: 'Samad Azeez',
-      url: 'https://www.linkedin.com/in/samad-azeez-759187325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      url: 'https://www.linkedin.com/in/thesamadazeez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       color: '#0077b5',
       darkColor: '#60a5fa',
     },
