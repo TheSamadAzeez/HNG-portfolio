@@ -173,10 +173,7 @@ export default function Contact() {
           </View>
 
           {/* Message Section */}
-          <View
-            className={`rounded-2xl p-6 ${
-              isDark ? 'bg-gray-800 bg-gradient-to-r from-blue-900 to-purple-900' : 'bg-blue-50'
-            }`}>
+          <View className={`rounded-2xl p-6 ${isDark ? 'bg-gray-800' : 'bg-blue-50'}`}>
             <View className="items-center">
               <Ionicons name="chatbubbles" size={48} color={isDark ? '#60a5fa' : '#3b82f6'} />
               <Text
